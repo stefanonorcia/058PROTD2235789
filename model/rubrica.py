@@ -14,6 +14,9 @@ class Rubrica:
     def stampaContatto(self, position):
         pass
 
+    def listaContatti(self):
+        pass
+
 
 class Contatto:
     def __init__(self, nome, cognome, telefono):
