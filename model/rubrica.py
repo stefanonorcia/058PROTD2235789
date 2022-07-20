@@ -8,12 +8,13 @@ class Rubrica:
     def rimuoviContatto(self, position):
         pass
 
+    # ricerca la key in nome cognome telefono di ogno contatto
     def cercaContatto(self, key):
         pass
-
+    # restituisce una stringa contenente nome cognome e telefono
     def stampaContatto(self, position):
         pass
-
+    # restituisce una stringa con elenco dei contatti, uno per riga
     def listaContatti(self):
         pass
 
