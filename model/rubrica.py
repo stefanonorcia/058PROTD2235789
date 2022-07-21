@@ -24,3 +24,6 @@ class Contatto:
         self.nome = nome;
         self.cognome = cognome
         self.telefono = telefono
+
+    def __str__(self):
+        return self.nome + ' ' + self.cognome + ' ' + self.telefono
