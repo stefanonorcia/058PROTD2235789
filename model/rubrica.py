@@ -3,7 +3,8 @@ class Rubrica:
         self.contatti = []
 
     def aggiungiContatto(self, nome, cognome, telefono):
-        pass
+        contatto = Contatto(nome, cognome, telefono)
+        self.contatti.append(contatto)
 
     def rimuoviContatto(self, position):
         pass

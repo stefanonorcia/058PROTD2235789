@@ -3,8 +3,8 @@ from model.rubrica import Rubrica
 
 print("Hello rubrica!")
 
-# rubrica = Rubrica()
-# rubrica.aggiungiContatto("stefano", "norcia", "45678909")
+rubrica = Rubrica()
+rubrica.aggiungiContatto("stefano", "norcia", "45678909")
 
 distributore = Distributore()
 distributore.aggiungiBibita("A", "acqua", 1.0)
