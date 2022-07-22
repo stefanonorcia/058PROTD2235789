@@ -25,17 +25,21 @@ class Sanita:
     def getPazienti(self, matricola):
         pass
 
+    # salva sul file pazienti.txt l'elenco dei pazienti
+    def salvaPazienti(self):
+        pass
+
 # sia il dottore che il paziente hanno come attributo nome cognome e codice fiscale
 # il paziente ha un codice univoco e il dottore una matricola
 
 
 class Dottore:
-    def __init__(self, matricola):
+    def __init__(self, nome, cognome, coficeFiscale, matricola):
         self.matricola = matricola
         self.pazienti = []
 
 
 class Paziente:
-    def __init__(self, codice):
+    def __init__(self, nome, cognome, coficeFiscale, codice):
         self.codice = codice
         self.dottori = []
